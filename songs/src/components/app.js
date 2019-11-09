@@ -1,8 +1,15 @@
 import React from "react"
-import {SelectSong} from "../actions"
+import SongList from "./SongList"
+
 console.log(SelectSong)
 const App=()=>{
-    return <div>APP</div>
+    return (<div className="ui container grid">
+        <div className="ui row">
+            <div className="column eight wide">
+                <SongList/>
+            </div>
+        </div>
+    </div>)
 
 }
 
