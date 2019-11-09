@@ -8,7 +8,7 @@ class SongList extends React.Component{
         return (
             <div className="item" key={song.title}>
                 <div className="right floated content">
-                    <button className="ui button primary">
+                    <button className="ui button primary"onClick={()=>this.props.SelectSong(song)}>
                         select
                     </button>
                 </div>
@@ -26,7 +26,7 @@ class SongList extends React.Component{
     }
 }
 const mapStatetoProps=(state)=>{
-    // console.log(state)
+    console.log(state)
     // return {
     //     songs:state.songs
     // }
@@ -36,3 +36,4 @@ const mapStatetoProps=(state)=>{
 }
 
 export default connect(mapStatetoProps,{SelectSong})(SongList)
+// export default connect(mapStatetoProps)(SongList)

@@ -1,7 +1,7 @@
 import React from "react"
 import SongList from "./SongList"
 
-console.log(SelectSong)
+// console.log(SelectSong)
 const App=()=>{
     return (<div className="ui container grid">
         <div className="ui row">
