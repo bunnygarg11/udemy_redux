@@ -4,3 +4,6 @@ npm install --save redux react-redux axios redux-thunk
 
 
 lec 165 till done
+lodash library
+
+https://www.google.com/search?q=diff+between+foreach+and+map&oq=diff+btw+foreach+and+&aqs=chrome.1.69i57j0l5.12623j0j7&sourceid=chrome&ie=UTF-8
