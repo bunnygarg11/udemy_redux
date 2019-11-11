@@ -1,0 +1,6 @@
+npm install --save redux react-redux axios redux-thunk
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
+
+
+lec 165 till done
